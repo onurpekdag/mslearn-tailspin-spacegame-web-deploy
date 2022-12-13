@@ -5,7 +5,7 @@ variables:
   buildConfiguration: 'deploy'
 
 stages:
-- stage: 'deploy'
+- stage: 'build'
   displayName: 'Build the web application'
   jobs: 
   - job: 'Build'
